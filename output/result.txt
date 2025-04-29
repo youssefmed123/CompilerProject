@@ -1,0 +1,112 @@
+	1: ERROR: #
+	1: ID, name= include
+	1: operator, less than: <
+	1: ID, name= stdio
+	1: ERROR: .
+	1: ID, name= h
+	1: operator, greater than: >
+	3: operator, over: /
+	3: operator, over: /
+	3: ID, name= Function
+	3: ID, name= to
+	3: ID, name= calculate
+	3: ID, name= the
+	3: ID, name= nth
+	3: ID, name= Fibonacci
+	3: ID, name= number
+	4: reserved word: int
+	4: ID, name= nthFibonacci
+	4: left parenthesis: (
+	4: reserved word: int
+	4: ID, name= n
+	4: right parenthesis: )
+	4: left curly bracket: {
+	5: reserved word: if
+	5: left parenthesis: (
+	5: ID, name= n
+	5: operator, less than or equal: <=
+	5: NUM, val= 1
+	5: right parenthesis: )
+	5: reserved word: return
+	5: ID, name= n
+	5: semi colum: ;
+	7: reserved word: int
+	7: ID, name= a
+	7: operator, equal: =
+	7: NUM, val= 0
+	7: comma: ,
+	7: ID, name= b
+	7: operator, equal: =
+	7: NUM, val= 1
+	7: comma: ,
+	7: ID, name= next
+	7: semi colum: ;
+	9: ID, name= for
+	9: left parenthesis: (
+	9: reserved word: int
+	9: ID, name= i
+	9: operator, equal: =
+	9: NUM, val= 2
+	9: semi colum: ;
+	9: ID, name= i
+	9: operator, less than or equal: <=
+	9: ID, name= n
+	9: semi colum: ;
+	9: ID, name= i
+	9: operator, plus: +
+	9: operator, plus: +
+	9: right parenthesis: )
+	9: left curly bracket: {
+	10: ID, name= next
+	10: operator, equal: =
+	10: ID, name= a
+	10: operator, plus: +
+	10: ID, name= b
+	10: semi colum: ;
+	11: ID, name= a
+	11: operator, equal: =
+	11: ID, name= b
+	11: semi colum: ;
+	12: ID, name= b
+	12: operator, equal: =
+	12: ID, name= next
+	12: semi colum: ;
+	13: right curly bracket: }
+	15: reserved word: return
+	15: ID, name= b
+	15: semi colum: ;
+	16: right curly bracket: }
+	18: reserved word: int
+	18: ID, name= main
+	18: left parenthesis: (
+	18: right parenthesis: )
+	18: left curly bracket: {
+	19: reserved word: int
+	19: ID, name= n
+	19: operator, equal: =
+	19: NUM, val= 5
+	19: semi colum: ;
+	20: reserved word: int
+	20: ID, name= result
+	20: operator, equal: =
+	20: ID, name= nthFibonacci
+	20: left parenthesis: (
+	20: ID, name= n
+	20: right parenthesis: )
+	20: semi colum: ;
+	21: ID, name= printf
+	21: left parenthesis: (
+	21: ERROR: "
+	21: ERROR: %
+	21: ID, name= d
+	21: ERROR: \
+	21: ID, name= n
+	21: ERROR: "
+	21: comma: ,
+	21: ID, name= result
+	21: right parenthesis: )
+	21: semi colum: ;
+	22: reserved word: return
+	22: NUM, val= 0
+	22: semi colum: ;
+	23: right curly bracket: }
